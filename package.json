@@ -20,5 +20,8 @@
     "jsdom": "^9.2.1",
     "method-override": "^2.3.6",
     "swig": "^1.4.2"
+  },
+  "engines": {
+    "node": "6.2.0"
   }
 }
