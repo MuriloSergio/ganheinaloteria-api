@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>{% block title %}Ganhei na loteria API{% endblock %}</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css"
+    media="all">
+  <link rel="stylesheet" href="/stylesheets/all.min.css">
+</head>
+
+<body>
+  <header id="header">
+    <div class="content">
+      <h1 id="header-title">Ganhei na loteria API</h1>
+    </div>
+  </header>
+
+  <article id="content" class="content">
+    {% block content %}{% endblock %}
+  </article>
+
+  <div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon">
+      <a href="https://github.com/MuriloSergio/ganheinaloteria-api">Fork me on GitHub</a>
+    </div>
+  </div>
+
+  <script src="/javascripts/all.min.js"></script>
+</body>
+</html>

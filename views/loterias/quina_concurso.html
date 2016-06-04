@@ -1,0 +1,52 @@
+<li class="endpoint-item noun-get">
+    <div class="endpoint-heading">
+        <span class="noun fleft">GET</span>
+        <span class="endpoint-name fleft">/api/quina/:concurso</span>
+    </div>
+    <div class="endpoint-content">
+        <h3>Parametro</h3>
+        <p>concurso | int | Número do concurso já sorteado</p>
+
+        <h3>Resposta</h3>
+        <pre>
+            {
+                "numero": "4099",
+                "data": "02/06/2016",
+                "cidade": "SÃO PAULO/SP",
+                "local": "Espaço Caixa Loterias",
+                "valorAcumulado": "2.135.849,23",
+                "dezenas": [
+                    "07",
+                    "15",
+                    "24",
+                    "27",
+                    "52"
+                ],
+                "premiacao": {
+                    "quina": {
+                    "ganhadores": "0",
+                    "valorPago": "0,00"
+                    },
+                    "quadra": {
+                    "ganhadores": "133",
+                    "valorPago": "3.229,61"
+                    },
+                    "terno": {
+                    "ganhadores": "8.334",
+                    "valorPago": "77,50"
+                    },
+                    "duque": {
+                    "ganhadores": "178.751",
+                    "valorPago": "1,98"
+                    }
+                },
+                "arrecadacaoTotal": "7.450.206,00",
+                "proximoConcurso": {
+                    "data": "03/06/2016",
+                    "valorEstimado": "3.000.000,00"
+                },
+                "valorAcumuladoQuinaSaoJoao": "101.276.153,37"
+            }
+        </pre>
+    </div>
+</li>
